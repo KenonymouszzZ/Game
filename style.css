@@ -1,0 +1,44 @@
+body {
+    font-family: 'Silkscreen', cursive;
+    margin: 0;
+    background-image: url(something_gif_log\ _\ RedWK34\ on\ Patreon.gif);
+}
+.container {
+    box-sizing: border-box;
+    color: brown;
+}
+
+#next-inp {
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+}
+#next-color {
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+}
+.labelo {
+    text-align: center;
+    left: 30%;
+}
+.bg-blue {
+    background-color: rgba(0, 0, 255, 0.596);
+}
+#containers-a {
+    display: block;
+}
+#containers-b {
+    display: none;
+}
+#containers-c {
+    display: none;
+}
+#reset-kolor {
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game kotak kotak</title>
+    <!-- connect bootstap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <!-- connect css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+          <div class="col-md-5 offset-md-3">
+            <div class="card" style="width: 600px;">
+              <div class="card-body">
+                <label class="position-relative labelo">PEMOGRAMAN GAMES - KUIS 2</label>
+                <hr>
+  <!-- username input -->
+                    <div id="containers-a">
+                        <div id="usernem" class="form-group">
+                            <label>Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Masukkan Username">
+                        </div>
+                        <button id="next-inp" class="bg-blue" onclick="myFunc()">Next</button>
+                    </div>
+  <!-- output username -->
+                   <div id="containers-b">
+                    <div id="color-piker" class="form-group">
+                        <label>Username :</label> <a id="names"></a>
+                        <br><br>
+                        <a>Pilih Warna :</a><input type="color" id="inilah" style="margin-left: 3px;">
+                    </div>
+                    <button id="next-color" class="bg-blue" onclick="startGame()" ondblclick="hapuss()">Start</button>
+                   </div>
+
+                   <div id="containers-c">
+                    <label>Username :</label> <a id="name"></a>
+                    <div class="form-group" id="abcde">
+                    
+                    </div>
+                    <button id="reset-kolor" class="bg-blue" onclick="myFunction()">Reset</button>
+                   </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- script link -->
+      <script src="script.js"></script>
+</body>
+</html>
